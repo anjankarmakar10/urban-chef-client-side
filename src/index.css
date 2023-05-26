@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #222;
+}
+
+.hero-hight {
+  min-height: calc(100vh - 60px);
+}
+
+.bg-hero {
+  background: url("https://themewagon.github.io/pato/images/slide1-01.jpg")
+    no-repeat center / cover;
+}
+.chef-hero {
+  background: url("https://themewagon.github.io/pato/images/bg-title-page-01.jpg")
+    no-repeat center / cover;
+}
+
+.bg-about {
+  background: url("https://themewagon.github.io/pato/images/bg-title-page-03.jpg")
+    no-repeat center / cover;
+}
+.bg-contact {
+  background: url("https://themewagon.github.io/pato/images/master-slides-01.jpg")
+    no-repeat center / cover;
+}
+.bg-blog {
+  background: url("https://themewagon.github.io/pato/images/bg-intro-01.jpg")
+    no-repeat center / cover;
+}
+.banner-hight {
+  min-height: calc(90vh - 60px);
+}
+
+.flex-basis {
+  flex-basis: 360px;
+}
+
+header a.active {
+  border-bottom: 2px solid #222;
+}
